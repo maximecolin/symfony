@@ -41,6 +41,8 @@ class ImageValidator extends FileValidator
             return;
         }
 
+        
+
         if (null === $constraint->minWidth && null === $constraint->maxWidth
             && null === $constraint->minHeight && null === $constraint->maxHeight
             && null === $constraint->minPixels && null === $constraint->maxPixels
